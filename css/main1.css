@@ -152,6 +152,10 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, sectio
     font-size: 7px;
     top: -12px;
 }
+.acn-sup-sizee{
+    font-size: 24px;
+    top: -12px;
+}
 
 /*pack part*/
 
@@ -406,7 +410,8 @@ h6 {
 }
 
 .img-16 {
-    width: 20%;
+	height: 97px;
+	width: 98px;
 }
 
 .sub-nav {
@@ -564,6 +569,11 @@ button.btn.btn-secondary.dropdown-toggle{
 #l-banner-HP {
     height: 100%;
     background: url(../images/Home_Phone_Mobile.png) center;
+    background-size: cover;
+}
+#l-banner-BP{
+    height: 100%;
+    background: url(../images/Business_Phone_Mobile.png) center;
     background-size: cover;
 }
 #l-banner-Bwireless{
@@ -1002,6 +1012,11 @@ div.col-sm-2.col-6 {
         background: url(../images/homephoneplans.png) center;
         background-size: cover;
     }
+    #l-banner-BP{
+        height: 100%;
+        background: url(../images/Business_Phone_Desktop.png) center;
+        background-size: cover;
+    }
     #l-banner-SAB{
         height: 100%;
         background: url(../images/SA_desktop.png) center;
@@ -1239,6 +1254,11 @@ div.col-sm-2.col-6 {
         background: url(../images/Bwireless_tablet.png) center;
         background-size: cover;
     }
+    #l-banner-BP{
+        height: 100%;
+        background: url(../images/business_phone_tablet.png) center;
+        background-size: cover;
+    }
 
     .l-banner-pack-position {
         margin-top: 128px;
@@ -1377,6 +1397,9 @@ div.col-sm-2.col-6 {
     .w-700{
         width: 100%;
     }
+    .mt-20{
+        margin-top: 20px;
+    }
     
     .imgmt-40 {
         margin-top: 40px;
@@ -1445,12 +1468,17 @@ div.col-sm-2.col-6 {
     }
     #l-banner-SAB{
         height: 100%;
-        background: url(../images/SA_mobile.png) center;
+        background: url(../images/Security_Image_Mobile.png) center;
         background-size: cover;
     }
     #l-banner-Bwireless{
         height: 100%;
         background: url(../images/Bwireless_mobile.png) center;
+        background-size: cover;
+    }
+    #l-banner-BP{
+        height: 100%;
+        background: url(../images/Business_Phone_Mobile.png) center;
         background-size: cover;
     }
     #l-banner-PP{
@@ -1634,7 +1662,7 @@ ul.popover_subtext li:last-child {
     margin-bottom: -9px;
     height: 120px;
 }
-//hello
+
 .btn-secondary {
     border-radius: 0px;
     border-color: #407EC9;
